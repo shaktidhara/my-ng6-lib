@@ -1,0 +1,25 @@
+.typeahead-container{
+    width: 100%;
+}
+.input-container input{
+    height: 28px;
+    border: radius 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.suggestion-lit{
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    background-color: #f5f2f2;
+}
+.suggestion-lit>li{
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    background-color: #f5f2f2;
+}
+.suggestion-lit>li:hover{
+    background-color: #ddd;
+}
