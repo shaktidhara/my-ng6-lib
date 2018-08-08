@@ -1,0 +1,21 @@
+<div class="typeahead-container">
+        <div class="input-container">
+            <input type="text"
+                class=""
+                placeholder="Enter text"
+                [value]="searchedText"
+                (keyup)="keyupHandler($event)"
+                (focusout)="focusoutHandler($event)"
+                (focusin)="focusinHandler($event)" />
+        </div>
+        <div *ngIf="showSearchedList && searchedItemList.length > 0"
+            class="list-container">
+            <ul class="suggestion-lit">
+                <li *ngFor="let item of searchedItemList"
+                    (click)="selectItemHandlar(item)"
+                    [title]="item.name">
+                    <a>{{item.name}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
