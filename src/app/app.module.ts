@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { TempLibComponentModule } from 'temp-lib-component';
 import { TypeaheadModule } from 'typeahead';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +12,6 @@ import { TypeaheadModule } from 'typeahead';
   ],
   imports: [
     BrowserModule,
-    TempLibComponentModule,
     HttpClientModule,
     TypeaheadModule
   ],

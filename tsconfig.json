@@ -34,6 +34,18 @@
       ],
       "typeahead/*": [
         "dist/typeahead/*"
+      ],
+      "temp-typeahead": [
+        "dist/temp-typeahead"
+      ],
+      "temp-typeahead/*": [
+        "dist/temp-typeahead/*"
+      ],
+      "lib-test": [
+        "dist/lib-test"
+      ],
+      "lib-test/*": [
+        "dist/lib-test/*"
       ]
     }
   }
