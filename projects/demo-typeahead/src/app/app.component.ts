@@ -3,6 +3,7 @@ import { TypeaheadService } from './typeahead.service';
 import { TypeaheadComponent } from 'typeahead';
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
